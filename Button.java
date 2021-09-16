@@ -28,7 +28,7 @@ public class Button extends JButton {
         number = num;
         visible = vis;
         
-        this.setPreferredSize(new Dimension(100, 100));
+        this.setPreferredSize(new Dimension(75, 75));
         this.setBackground(Color.white);
         this.setFont(new Font(Font.SERIF, Font.BOLD, 35));
 
