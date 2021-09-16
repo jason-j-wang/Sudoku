@@ -44,7 +44,7 @@ public class Sudoku extends JFrame {
         {7, 9, 1, 4, 8, 5, 6, 2, 3}
     };
     
-    /*private boolean[][] filled = {
+    private boolean[][] filled = {
         {true, true, true, true, true, true, false, true, false},
         {true, true, false, true, false, true, true, false, true},
         {false, true, true, true, false, true, true, false, true},
@@ -54,9 +54,9 @@ public class Sudoku extends JFrame {
         {true, false, false, false, true, true, true, true, true},
         {true, false, true, true, false, false, true, true, true},
         {false, true, false, false, true, true, true, false, false}
-    }; */
+    }; 
     
-    private boolean[][] filled = {
+    /*private boolean[][] filled = {
         {true, true, true, true, true, true, true, true, true},
         {true, true, true, true, true, true, true, true, true},
         {true, true, true, true, true, true, true, true, true},
@@ -66,7 +66,7 @@ public class Sudoku extends JFrame {
         {true, true, true, true, true, true, true, true, true},
         {true, true, true, true, true, true, true, true, true},
         {true, true, true, true, true, true, true, true, false}
-    };
+    }; */
     
     public Sudoku(){
         super("Sudoku");
